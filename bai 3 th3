@@ -1,0 +1,8 @@
+#cau3
+def say_hello():
+    a = "Hello"
+    print(a)
+
+print(a)
+# Lỗi: name 'a' is not defined không xác định
+

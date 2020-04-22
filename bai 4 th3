@@ -1,0 +1,13 @@
+#cau5
+a = "Hello Guy!"
+def say():
+    global a
+    a = "Vinh university"
+    print(a)
+
+say()
+# KQ: Vinh university
+print(a)
+# KQ: Vinh university
+
+

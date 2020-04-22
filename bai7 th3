@@ -1,0 +1,8 @@
+#cau7
+number = 5
+
+def best_way(number):
+       if number%2==0:
+           print (evennumber)
+       else:
+           print (oddnumber)
