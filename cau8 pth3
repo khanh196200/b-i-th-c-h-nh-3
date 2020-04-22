@@ -1,0 +1,22 @@
+import math
+pos=[0,0]
+while True:
+    s=input()
+    if not s:
+        break
+    movement=s.split(" ")
+    direction=movement[0]
+    steps=int(movement[1])
+    if direction=="UP 5":
+     pos[0]+=steps
+    elif direction=="DOWN 3":
+     pos[0]-=steps
+    elif direction=="LEFT 3":
+     pos[1]-=steps
+    elif direction=="RIGHT 2":
+     pos[0]+=steps
+    else:
+        pass
+    
+
+    

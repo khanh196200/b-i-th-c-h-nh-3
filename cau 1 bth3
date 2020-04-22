@@ -1,0 +1,6 @@
+#câu1
+def sum(a, b):
+    print("sum = " + str(a + b))
+# tinh tong 2 so 4,5
+sum(4, 5)
+# Ket qua: sum = 9
